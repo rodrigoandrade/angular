@@ -1,0 +1,10 @@
+<h1>Order a pizza</h1>
+<p>
+	<label>Select your pizza</label>
+	<br/>
+	<select ng-model="pizzaType" ng-options="choice for a choice in choices">
+	</select>
+</p>
+<p>
+	<button ng-click="placeOrder()"></button>
+</p>
