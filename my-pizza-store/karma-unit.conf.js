@@ -7,6 +7,7 @@ module.exports = function(config) {
 			'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular-route.js',
 			'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular-mocks.js',
 			'app/scripts/app.js',
+			'app/scripts/services/OrderService.js',
 			'app/scripts/controllers/SelectPizzaController.js',
 			'spec/unit/*js'
 		]
