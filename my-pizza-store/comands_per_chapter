@@ -1,4 +1,9 @@
 comands per chapter
 
+-Configuring Karma for Testing
+node node_modules\webdriver\bin\webdriver-manager start
+node node_modules\angular-dev-server\index.js
+node node_modules\protractor\bin\protractor protractor.conf.js
+
 -Testing Controllers That Have a Dependency
 grunt karma:unit
