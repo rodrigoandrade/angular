@@ -15,7 +15,7 @@ describe('Select Pizza Controller', function() {
 	beforeEach(inject(function($rootScope, $controller) {
 		scope = $rootScope.$new();
 		ctrl = $controller('SelectPizzaController', {
-			$scope = scope
+			$scope: scope,
 			OrderService: mockOrderService
 		});
 	}));
