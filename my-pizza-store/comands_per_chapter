@@ -1,7 +1,10 @@
 comands per chapter
 
 -Configuring Karma for Testing
-node node_modules\webdriver\bin\webdriver-manager start
+node node_modules\webdriver-manager\bin\webdriver-manager start
+or
+node node_modules\webdriver-manager\bin\webdriver-manager update
+
 node node_modules\angular-dev-server\index.js
 node node_modules\protractor\bin\protractor protractor.conf.js
 
